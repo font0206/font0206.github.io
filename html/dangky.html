@@ -1,0 +1,350 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../icon/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/test.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="main container-fluid p-0">
+        <!-- <div class="container"> -->
+        <div class="header hpc row sticky-top">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="font">
+                    <h1 class="ms-3">FONTSHOP</h1>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 p-0 mr-0">
+                <div class="font2">
+                    <ul class="topNav nav">
+                        <li><a href="../html/layout.html">Trang chủ</a></li>
+                        <li><a href="../html/laptop.html">Sản phẩm</a>
+                            <!-- <ul>
+                                     <li><a href="#titlePC">PC</a>
+                                    <li><a href="#titleLaptop">Laptop</a>
+                                </ul> -->
+
+
+                        <li><a href="../html/about.html">Về chúng tôi</a></li>
+                        <li><a href="../html/contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                <div class="navPhai row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <!-- <div class="font"> -->
+                        <div class="search">
+                            <form action="">
+                                <input type="text" class="search__input" placeholder="ban muon tim gi?">
+
+                                <button class="search__btn">tim</button>
+                            </form>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="dangnhapcol col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="pcNavRight row">
+                    <div
+                        class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 d-flex justify-content-center align-items-center">
+                        <div class="giohang">
+                            <a id="cartPC" href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                            <span id="demcart" class="totalProduct">0</span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex justify-content-center align-items-center">
+                        <div class="dangki"><a id="btnUser" href="../html/login.html"><i class="fas fa-user-circle">
+
+                                </i>
+                                <span class="idName"></span>
+                                <ul class="dn bg-white">
+                                    <li><a id="btn_canhan" href=""></a></li>
+                                    <li><a id="btn_listLog" href=""></a></li>
+
+                                    <!-- <li><a  href=""></a></li> -->
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="nav_mobile col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="menu-nav btn-menu-on p-0" id="toggle-on">
+                    <i id="x" class="fas fa-bars"></i>
+                    <ul class="appNav nav flex-column ">
+                        <li class="nav-item">
+                            <a id="nameMobie" class="idName nav-link text-dark" href=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/layout.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/laptop.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/about.html">Về chúng tôi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/contact.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="cartMB" class="nav-link text-dark" href="#">Giỏ hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="dangnhapMB" class="nav-link text-dark" href="../html/login.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btn_listLogMB" class="nav-link text-dark" href="">Đăng kí</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="background__login login row ">
+            <form name="frmdangky" id="frmdangky" action="#">
+                <div class="container-fluid p-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+
+                            <div class="card-body text-center">
+                                <div>
+                                    <h1>ĐĂNG KÝ</h2>
+                                        <p>Tạo tài khoản</p>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input onblur="checkDangKi();" id="txtName" class="form-control" type="text"
+                                                name="name" placeholder="Họ tên">
+                                            <span id="erName" class="text-danger ms-2 w-100"></span>
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input onblur="checkDangKi();" id="txtUserName" class="form-control"
+                                                type="text" name="username" placeholder="Tên đăng nhập">
+                                            <span id="erUserName" class="text-danger ms-2 w-100"></span>
+                                        </div>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block">
+                                                    <i class="fa fa-lock"></i>
+                                                </span>
+                                            </div>
+                                            <input onblur="checkDangKi();" id="txtPass" class="form-control"
+                                                type="password" name="password" placeholder="Mật khẩu">
+                                            <span id="erPass" class="text-danger ms-2 w-100"></span>
+                                        </div>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block">
+                                                    <i class="fa fa-lock"></i>
+                                                </span>
+                                            </div>
+                                            <input onblur="checkDangKi();" minlength="100px" id="txtRePass"
+                                                class="form-control" type="password" name="repassword"
+                                                placeholder=" Nhập lại Mật khẩu">
+                                            <span id="erRePass" class="text-danger ms-2 w-100"></span>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block">
+                                                    <i class="fa fa-mail-bulk"></i>
+                                                </span>
+                                            </div>
+                                            <input onblur="checkDangKi();" id="txtMail" class="form-control"
+                                                type="email" name="mail" placeholder="Email">
+                                            <span id="erMail" class="text-danger ms-2 w-100"></span>
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text h-100 d-block"><i
+                                                        class="fa fa-phone"></i></span>
+                                            </div>
+                                            <input onblur="checkDangKi();" id="txtPhone" class="form-control"
+                                                type="text" placeholder="Điện thoại" name="phone">
+                                            <span id="erPhone" class="text-danger ms-2 w-100"></span>
+                                        </div>
+                                        <button id="btnDangKi" class="btn btn-block btn-success w-50"
+                                            name="btnDangKy">Tạo tài khoản</button>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+
+        </div>
+
+
+
+
+        <!-- </div> -->
+        <div class="footer container-fluid">
+            <div class="ftRow row">
+                <div class="ftCol col-sm-10">
+                    <div class="ftbao row">
+                        <div class="col-sm-3">
+                            <div class="info">
+                                <h5>CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ FONTSHOP</h5>
+                                <p>© 1997 - 2020 Công Ty Cổ Phần Thương Mại - Dịch Vụ FONTSHOP
+                                    Giấy chứng nhận đăng ký doanh nghiệp: 0304998358 do Sở KH-ĐT TP.HCM cấp lần đầu ngày
+                                    30 tháng 05 năm 2007</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="diaChi">
+                                <div class="baodc">
+                                    <h6 class="dc">Địa chỉ trụ sở chính:</h6>
+                                    <p>Tầng 5, Số 117-119-121 Nguyễn Du, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh
+                                    </p>
+                                    <!-- <p class="dc">Văn phòng điều hành miền Bắc:</p>
+                                <p>Tầng 6, Số 1 Phố Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội</p>
+                                <p class="dc">Văn phòng điều hành miền Nam:</p>
+                                <p>Tầng 11 Minh Long Tower, số 17 Bà Huyện Thanh Quan, Phường 6, Quận 3, TP. Hồ Chí Minh</p> -->
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="contact">
+                                <h6>Cộng đồng FontShop</h6>
+                                <p><a href="https://www.facebook.com/Font.Thong.Thai/">Phan Thanh Phong</a></p>
+                                <p><a href="https://www.facebook.com/quangmanh.pham.545/">Phạm Quang Mạnh</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="mail">
+                                <h6>Email liên hệ</h6>
+
+                                <p><a href="phanthanhphong2615@gmail.com">phanthanhphong2615@gmail.com</a></p>
+                                <p><a href="qn29032001@gmail.com">qn29032001@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/main.js"></script>
+    <script>
+        var btnRegister = document.getElementById('btnDangKi');
+        btnRegister.addEventListener('click', function (event) {
+            event.preventDefault();
+            var form = document.querySelector('#frmdangky');
+            var data = Object.fromEntries(new FormData(form).entries());
+            data["product"] = [];
+            console.log(data);
+            if (checkDangKi()) {
+                var flag = true;
+                for (var user of listUser) {
+                    if (user.username === data.username) {
+                        alert("tên tài khoản đã tồn tại");
+                        flag = false;
+                        break;
+                    }
+                }
+                if (flag) {
+                    listUser.push(data);
+                    var list = JSON.stringify(listUser);
+                    localStorage.setItem("listUser", list);
+                    alert("Bạn đã đăng ký thành công");
+                    window.location = "./login.html";
+                }
+            }
+        });
+
+
+
+            // var listUser = localStorage.getItem('dsUser');
+            // if(listUser ==null){
+            //     listUser = new Array();
+            // }
+
+
+            // var btnDangKy = document.getElementById('btnDangKi');
+            // btnDangKy.addEventListener('click', function (e) {
+            // e.preventDefault();
+            // if(checkDangKi()){
+            // alert("Đăng kí thành công");
+            //txtName = document.getElementById('txtName');
+            // txtUserName = document.getElementById('txtUserName');
+            // txtPassWord = document.getElementById('txtPass');
+            // card =[];
+            // txtRePass = document.getElementById('txtRePass');
+           // txtMail = document.getElementById('txtMail');
+            //txtPhone = document.getElementById('txtPhone');
+            //var name = txtName.value;
+
+            // var username = txtUserName.value
+
+            // var pass = txtPassWord.value;
+            // var repass = txtRePass.value;
+            //var mail = txtMail.value;
+
+           // var phone = txtPhone.value;
+            // var objUser = objDangKi(name,username,pass,mail,phone);
+            // var  objUser = objDangKi(username,pass,card);
+
+            // console.log(objUser);
+
+            // console.log(listUser);
+            // localStorage.setItem('userNew',JSON.stringify(userNew));
+            // listUser.push(objUser);
+            // localStorage.setItem('listUser', JSON.stringify(listUser));
+    // window.location = "./login.html";
+//   }
+
+
+// });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+
+.nav li ul{
+    display: none;
+}
+
+.picture{
+    background-color: brown;
+    width: 100%;
+}
+.dn{
+    position: absolute;
+}
+.dn li{
+    display: none;
+    
+    
+}
+.dangki{
+    position: relative;
+}
+.dangki:hover li{
+    display: block;  
+}
+
+.cc{
+    
+    border: none;
+    transition: all 0.2s linear;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    height: 350px;
+    z-index: 0;
+}
+.card-img-top:hover{
+
+    transform: scale(1.05);
+    
+}
+.xem{
+    padding: 20px;
+    
+    
+}
+
+.xem a{
+    text-decoration: none;
+    color: red
+    
+}
+.xem p{
+    text-align: center;
+}
+
+.container{
+    background-color:whitesmoke;
+}
+.header{
+    background-color: white;
+    align-items: center;
+    position: relative;
+   
+    
+}
+.search form{
+    align-items: center;
+}
+.footer{
+    background-color: grey;
+    
+
+
+}
+
+.ftRow{
+    padding-top: 20px;
+    margin-top: 55px;
+    
+
+}
+.ftCol{
+    position: relative;
+}
+
+.search{
+    
+    /* khi co lai thi 100px la khong co dc nua */
+    /* chieu dai toi thieu */
+    /* vi du */
+    /* la no van vay k co lai dc tiep */
+    /* fix dumâ cai nay no deo thang hang gan cai bootrrap vao bi zok */
+    width: 400px;
+    height: 30px;
+    /* cho cai khung chua no co kich thuoc trc */
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 14px;
+}
+.search__input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    /* padding-left: 10px; */
+}
+
+/* neu muon cho cai chu kia no dam len thi */
+/* .search__input::placeholder{
+    color: #000;
+} */
+
+.search__btn{
+    background-color: red;
+    /* do thang btn nam trong bootstrap nen k css dc */
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.search__btn:hover {
+    background-color: #bb0b0b;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+li{
+    list-style-type: none;
+}
+
+li:hover>ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    padding: 10px; 
+}
+li:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    color: rgb(99, 99, 245) ;
+    
+}
+.font h1:hover{
+    color: rgb(99, 99, 245) ;
+}
+h1:hover{
+    color: rgb(99, 99, 245) ;
+}
+@media(max-width:10000px){
+    .nav_mobile{
+        display: none;
+    }
+}
+@media(max-width: 1199px){
+    
+    .topNav{
+        display: none;
+          
+    }
+    .dangnhapcol{
+        display: none;
+    }
+    .nav_mobile{
+        display: block;
+    }
+/* tim */
+    .search{
+        width: 250px;
+        height: 25px;
+    }
+    .pcNav,.lapTopNav{
+        padding-bottom: 15px;
+        
+    }
+    
+    
+}
+@media(max-width: 650px){
+    
+    .topNav{
+        display: none;
+          
+    }
+    .dangnhapcol{
+        display: none;
+    }
+    .nav_mobile{
+        display: block;
+    }
+   
+    
+/* tim */
+    .search{
+        width: 100px;
+        height: 25px;
+    }
+    .pcNav,.lapTopNav{
+        padding-bottom: 15px;
+        
+    }
+    /* .dangnhapcol{
+        display: none;
+    } */
+    
+}
+.card-text{
+    color: red;
+}
+.listLocPC li{
+    padding: 10px;
+}
+.listLocLaptop li{
+    padding: 10px;
+}
+.laptop-item{
+    z-index: 1;
+    width: 100px;
+    
+}
+.laptop-item a{
+    text-align: center;
+}
+
+.f{
+    padding-bottom: 10px;
+}
+.spPC{
+    padding-bottom: 10px;
+}
+.spLaptop{
+    padding-bottom: 10px;
+}
+.info h5, .info p,.diaChi h6,.diaChi p,.contact h6, .mail h6{
+    color: rgb(224, 222, 222);
+}
+.contact a , .mail a{
+    color: rgb(64, 64, 248);
+}
+.contact a:hover{
+    color: rgb(25, 36, 97)
+}
+.mail a:hover{
+    color: rgb(25, 36, 97)
+}
+.fas{
+    font-size: 22px;
+    line-height: 100%;
+    padding: none;
+    margin: none;
+   
+}
+.dangnhapcol{
+    height: 100%;
+}
+
+
+.app{
+    position: relative;
+}
+.appNav{
+    position: absolute;
+    right: 1;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    align-items: center; 
+}
+.loc{
+    
+    width: 100px;
+}
+.background__login{
+    background-image: url(../img/login.png);
+  
+}
+.giohang{
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.totalProduct {
+    position: absolute;
+    top: -1px;
+    right: -10px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: none;
+}
+#toggle-on{
+    float: right;
+}
+
+
+
+
+
+
+

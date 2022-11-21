@@ -1,0 +1,291 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../icon/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/test.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="main container-fluid p-0">
+        <!-- <div class="container"> -->
+        <div class="header hpc row sticky-top">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="font">
+                    <h1 class="ms-3">FONTSHOP</h1>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 p-0 mr-0">
+                <div class="font2">
+                    <ul class="topNav nav">
+                        <li><a href="../html/layout.html">Trang chủ</a></li>
+                        <li><a href="../html/laptop.html">Sản phẩm</a>
+                            <!-- <ul>
+                                     <li><a href="#titlePC">PC</a>
+                                    <li><a href="#titleLaptop">Laptop</a>
+                                </ul> -->
+
+
+                        <li><a href="../html/about.html">Về chúng tôi</a></li>
+                        <li><a href="../html/contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                <div class="navPhai row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <!-- <div class="font"> -->
+                        <div class="search">
+                            <form action="">
+                                <input type="text" class="search__input" placeholder="ban muon tim gi?">
+
+                                <button class="search__btn">tim</button>
+                            </form>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="dangnhapcol col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="pcNavRight row">
+                    <div
+                        class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 d-flex justify-content-center align-items-center">
+                        <div class="giohang">
+                            <a id="cartPC" href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                            <span id="demcart" class="totalProduct">0</span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex justify-content-center align-items-center">
+                        <div class="dangki"><a id="btnUser" href="../html/login.html"><i class="fas fa-user-circle">
+
+                                </i>
+                                <span class="idName"></span>
+                                <ul class="dn bg-white">
+                                    <li><a id="btn_canhan" href=""></a></li>
+                                    <li><a id="btn_listLog" href=""></a></li>
+
+                                    <!-- <li><a  href=""></a></li> -->
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="nav_mobile col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="menu-nav btn-menu-on p-0" id="toggle-on">
+                    <i id="x" class="fas fa-bars"></i>
+                    <ul class="appNav nav flex-column ">
+                        <li class="nav-item">
+                            <a id="nameMobie" class="idName nav-link text-dark" href=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/layout.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/laptop.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/about.html">Về chúng tôi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../html/contact.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="cartMB" class="nav-link text-dark" href="#">Giỏ hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="dangnhapMB" class="nav-link text-dark" href="../html/login.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btn_listLogMB" class="nav-link text-dark" href="">Đăng kí</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h1 class="text-center py-3 product__detail-title">Thông tin sản phẩm</h1>
+            <div class="row form-group">
+                <div class="col-xl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 wrapImage">
+
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+                    style="border-left: 4px solid #ccc;">
+                    <h2 class="name_sp mt-4">Ten san pham</h2>
+                    <p id="price" class="price pt-4 ">
+
+                    </p>
+
+                    <div class="row">
+                        <span class="pt-3">Số lượng:
+                            <input class="col-sm-4" id="orderQty" style="width: 50px;" type="number" required min="1"
+                                value="1" name="" id="">
+                        </span>
+
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <button type="submit" class="d-block btn btn-danger mt-3 " style="width: 85%;">Mua
+                                Hàng</button>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <button id="btnGio" type="submit" class="d-block btn btn-outline-secondary mt-3"
+                                style="width: 85%;">Thêm vào giỏ hàng</button>
+                        </div>
+
+                    </div>
+
+                    <div class="detail-product">
+                        <p class="text-danger mt-3" style="font-size: 20px;">Chi tiết sản sản phẩm</p>
+                        <p id="tradesmark" class="tradesmark" style="font-size: 18px;"></p>
+                        <p id="thongtin_sp" style="font-size: 18px;">
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="footer container-fluid p-0">
+            <div class="ftRow row">
+                <div class="ftCol col-sm-10">
+                    <div class="ftbao row">
+                        <div class="col-sm-3">
+                            <div class="info">
+                                <h5>CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ FONTSHOP</h5>
+                                <p>© 1997 - 2020 Công Ty Cổ Phần Thương Mại - Dịch Vụ FONTSHOP
+                                    Giấy chứng nhận đăng ký doanh nghiệp: 0304998358 do Sở KH-ĐT TP.HCM cấp lần đầu ngày
+                                    30 tháng 05 năm 2007</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="diaChi">
+                                <div class="baodc">
+                                    <h6 class="dc">Địa chỉ trụ sở chính:</h6>
+                                    <p>Tầng 5, Số 117-119-121 Nguyễn Du, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="contact">
+                                <h6>Cộng đồng FontShop</h6>
+                                <p><a href="https://www.facebook.com/Font.Thong.Thai/">Phan Thanh Phong</a></p>
+                                <p><a href="https://www.facebook.com/quangmanh.pham.545/">Phạm Quang Mạnh</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="mail">
+                                <h6>Email liên hệ</h6>
+
+                                <p><a href="phanthanhphong2615@gmail.com">phanthanhphong2615@gmail.com</a></p>
+                                <p><a href="qn29032001@gmail.com">qn29032001@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/main.js"></script>
+    <script>
+        var link = window.location.href;
+        var id = link.split('?')[1];
+        var product = getProduct(id);
+        var imgElement = `<img src="${product.url}" class="w-100" alt="product img">`;
+        var nameElement = `<h2 class="name_sp mt-4">${product.name}</h2>`;
+        var priceElement = `<span class="text-danger">${product.price}vnđ</span>`;
+        var trademarkElement = `${product.trademark}`;
+        var infoElement = `${product.info}`;
+
+        var wrapImage = document.querySelector('.wrapImage');
+        var wrapName = document.querySelector('.name_sp');
+
+        var wrapPrice = document.querySelector('.price');
+        console.log(wrapPrice)
+        var wrapTradesmark = document.querySelector('.tradesmark');
+        var wrapInfo = document.querySelector('#thongtin_sp');
+
+
+        wrapImage.innerHTML = imgElement;
+        wrapName.innerHTML = nameElement;
+        wrapPrice.innerHTML = priceElement;
+        wrapTradesmark.innerHTML = product.trademark;
+        wrapInfo.innerHTML = infoElement;
+        wrapImage.id = id;
+
+
+        var addProductToCart = function () {
+            var id = link.split('?')[1];
+            var quantity = document.getElementById("orderQty").value;
+            var product = {
+                id,
+                n: Number(quantity)
+            };
+            //    lấy user ra 
+            var user = JSON.parse(localStorage.getItem("userCurrent"));
+            // kiểm tra xem sản phẩm đã tồn tài hay chưa
+            // nếu có thì ghi đè số lượng 
+
+            var products = user.product;
+            var index = products.findIndex(p => p.id == product.id);
+            if (index != -1) {
+                products[index].n += product.n;
+            } else {
+                products.push(product);
+            }
+            localStorage.setItem("userCurrent", JSON.stringify(user));
+            var totalProduct = document.querySelector(".totalProduct");
+            totalProduct.innerText = user.product.length;
+        }
+        var btnAddToCard = document.getElementById("btnGio");
+        
+        btnAddToCard.addEventListener("click", function (even) {
+            even.preventDefault();
+            addProductToCart();
+
+        });
+    </script>
+</body>
+
+</html>
